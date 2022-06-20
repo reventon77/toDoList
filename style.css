@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: max-content;
+    display: block;
+    border-radius: 10px;
+    justify-content: center;
+    border: 1px solid grey;    
+}
+
+.task-tracker_body {
+    padding: 20px 25px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.sort-button-up {
+  margin-left: auto;
+  display: block;
+  width: 25px;
+  height: 15px;
+  border: 0;
+  background-image: url('../img/Group74.svg');
+  background-color: transparent;
+}
+
+.sort-button-down {
+    margin-left: auto;
+    display: block;
+    width: 25px;
+    height: 15px;
+    border: 0;
+    background-image: url('../img/Group90.svg');
+    background-color: transparent;
+}
+.sort-button-down:hover {
+    background-image: url('../img/Group91.svg');
+}
+
+.sort-button-up:hover {
+    background-image: url('../img/Group73.svg');
+}
+
+.sb_block {
+    display: none;
+}
+
+
+
+.add-button {
+    width: 150px;
+    height: 42px;
+    border-radius: 50px;
+    justify-content: center;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/Group41.svg');
+    border: 0;
+    display: block;
+    
+}
+
+.input-block{
+    /* width: 286px; */
+    position: relative;
+    /* margin: 0 20px 18px 20px; */
+    /* border-radius: 10px; */
+    border: 0;
+}
+
+.input {
+    width: 250px; 
+    height: 40px; 
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 0 10px;
+}
+
+.delete{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-image: url('../img/Group\ 56.svg');
+    background-color: transparent;
+    border: 0;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.delete:hover{
+    background-image: url('../img/Group\ 70.svg');
+}
+
+header {
+    width: 100%;
+    height: 28px;
+    background-color: #FFDC40;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 12px;
+}
+
+.tasks-list {
+    width: 286px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 20px 0;
+    /* padding-top: 10px; */
+}
+
+.lol {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 18px;
+}   
